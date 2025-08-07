@@ -46,11 +46,3 @@ app.listen(port,()=>{
 console.log("App listening to: "+port)
 })
 
-const sampleProject = new Project({
-title: "Kitten 3",
-image: "images/k3.webp",
-link: "About Kitten 3",
-description: "Demo description about kitten 4"
-});
-sampleProject.save().then(() => console.log("Sample project saved!"));
-
